@@ -1,0 +1,223 @@
+[
+  {
+    "id": "barbershop",
+    "category": "software",
+    "title": "Barbershop Management System",
+    "description": "Built a web application for Customer, Barber and Administrator roles, supporting appointment booking, rescheduling, cancellation and confirmation.",
+    "detail": "Developed backend services and REST API endpoints with MySQL persistence. Tested API behaviour using Postman.",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST APIs",
+      "Thymeleaf",
+      "JavaScript"
+    ],
+    "status": "Academic & personal work",
+    "number": "01",
+    "challenge": "Coordinating appointments across three different user roles while keeping booking changes consistent.",
+    "approach": [
+      "Built role-specific flows for Customer, Barber and Administrator.",
+      "Implemented booking, rescheduling, cancellation and confirmation.",
+      "Developed REST endpoints and MySQL persistence; tested API behaviour with Postman."
+    ],
+    "architecture": [
+      [
+        "Customer / Barber / Admin",
+        "Thymeleaf + JavaScript"
+      ],
+      [
+        "Application services",
+        "Java + Spring Boot"
+      ],
+      [
+        "Persistent data",
+        "MySQL"
+      ]
+    ],
+    "takeaway": "A practical foundation in role-based application design, API behaviour and relational persistence."
+  },
+  {
+    "id": "adult-income",
+    "category": "software",
+    "title": "Adult Income Machine-Learning Project",
+    "description": "Prepared an income-classification workflow and compared logistic regression, decision tree and random forest models.",
+    "detail": "Explored hyperparameter tuning and evaluated accuracy, precision, recall, F1 and ROC-AUC. Examined performance across sex and race groups to assess fairness and communicate limitations.",
+    "tags": [
+      "Python",
+      "Machine learning",
+      "AI in the Cloud"
+    ],
+    "status": "Academic & personal work",
+    "number": "02",
+    "challenge": "Comparing predictive performance while making model limitations and demographic differences visible.",
+    "approach": [
+      "Prepared the Adult Income dataset for classification.",
+      "Compared logistic regression, decision tree and random forest models, with hyperparameter tuning.",
+      "Evaluated accuracy, precision, recall, F1 and ROC-AUC, plus performance across sex and race groups."
+    ],
+    "architecture": [
+      [
+        "Dataset",
+        "Adult Income"
+      ],
+      [
+        "Preparation + training",
+        "Python classification workflow"
+      ],
+      [
+        "Evaluation",
+        "Metrics + fairness analysis"
+      ]
+    ],
+    "takeaway": "Model quality needs more than a single accuracy score; evaluation should communicate trade-offs and limitations."
+  },
+  {
+    "id": "aws-deployment",
+    "category": "cloud",
+    "title": "AWS Serverless & Application Deployment",
+    "description": "Created and invoked Python Lambda functions, validated inputs and used execution logs to troubleshoot behaviour.",
+    "detail": "Configured an S3 event trigger with an incoming-file prefix and tested matching and non-matching object paths. Deployed a Django application to Elastic Beanstalk and worked with EC2, Linux command-line tools and Python virtual environments.",
+    "tags": [
+      "Python",
+      "Lambda",
+      "S3",
+      "EC2",
+      "Elastic Beanstalk",
+      "Django",
+      "Linux"
+    ],
+    "status": "Academic & personal work",
+    "number": "03",
+    "challenge": "Understanding how application configuration, event rules and logs affect a cloud deployment.",
+    "approach": [
+      "Created Python Lambda functions and validated valid and invalid inputs.",
+      "Configured S3 notifications with an incoming-file prefix and tested matching and non-matching paths.",
+      "Deployed a Django application using Elastic Beanstalk and worked with EC2, Linux and virtual environments."
+    ],
+    "architecture": [
+      [
+        "Serverless lab",
+        "S3 event \u2192 Python Lambda \u2192 execution logs"
+      ],
+      [
+        "Application lab",
+        "Django \u2192 Elastic Beanstalk"
+      ],
+      [
+        "Supporting environment",
+        "EC2 + Linux + Python virtual environments"
+      ]
+    ],
+    "takeaway": "Practical experience with deployment configuration, event-driven behaviour and log-based troubleshooting."
+  },
+  {
+    "id": "containers",
+    "category": "cloud",
+    "title": "Container & Kubernetes Performance Labs",
+    "description": "Containerised a C benchmark and compared CPU and memory performance under different resource constraints.",
+    "detail": "Deployed replicated Nginx workloads to a local Kubernetes cluster and observed automatic Pod replacement after deleting a Pod. Configured CPU and memory requests and limits, then inspected logs and deployment details to analyse resource behaviour.",
+    "tags": [
+      "Docker",
+      "Kubernetes",
+      "kind",
+      "C",
+      "Linux"
+    ],
+    "status": "Academic & personal work",
+    "number": "04",
+    "challenge": "Separating workload behaviour from resource constraints in a local container environment.",
+    "approach": [
+      "Containerised a C benchmark and compared CPU and memory behaviour under constraints.",
+      "Deployed replicated Nginx workloads and observed Pod replacement after deletion.",
+      "Configured CPU and memory requests and limits, then inspected logs and deployment details."
+    ],
+    "architecture": [
+      [
+        "Workloads",
+        "C benchmark + Nginx"
+      ],
+      [
+        "Orchestration",
+        "Kubernetes / kind"
+      ],
+      [
+        "Runtime",
+        "Docker + Linux"
+      ]
+    ],
+    "takeaway": "Resource limits change workload performance; replica controllers help maintain the requested application state."
+  },
+  {
+    "id": "parallel-computing",
+    "category": "cloud",
+    "title": "Parallel Computing & Scaling Benchmarks",
+    "description": "Built and ran parallel benchmarks to measure execution time, speedup and efficiency across worker counts.",
+    "detail": "Compared compute and memory workloads under strong and weak scaling to analyse hardware and resource bottlenecks. Practised MPI ring messaging, ping-pong, distributed mean calculation and broadcast.",
+    "tags": [
+      "C",
+      "POSIX threads",
+      "Open MPI",
+      "Performance analysis"
+    ],
+    "status": "Academic & personal work",
+    "number": "05",
+    "challenge": "Understanding why adding workers does not always give proportional speedup.",
+    "approach": [
+      "Measured time, speedup and efficiency across worker counts.",
+      "Compared compute and memory workloads under strong and weak scaling.",
+      "Practised MPI ring messaging, ping-pong, distributed mean and broadcast."
+    ],
+    "architecture": [
+      [
+        "Benchmark workloads",
+        "Compute + memory kernels"
+      ],
+      [
+        "Parallel execution",
+        "POSIX threads + Open MPI"
+      ],
+      [
+        "Analysis",
+        "Timings \u2192 speedup \u2192 efficiency"
+      ]
+    ],
+    "takeaway": "Parallel performance depends on communication, memory behaviour and available hardware, as well as worker count."
+  },
+  {
+    "id": "job-tracker",
+    "category": "software",
+    "title": "Graduate Job Application Tracker",
+    "description": "Developing a Django web application to organise graduate job applications for the GreenOps and Sustainability CA.",
+    "detail": "Configured and ran the application locally, resolved development issues and passed Django system checks. Planned next stages: cloud deployment, CI/CD, automated testing, security checks and resource-efficiency evaluation. These stages are planned work.",
+    "tags": [
+      "Python",
+      "Django",
+      "HTML",
+      "CSS"
+    ],
+    "status": "In progress",
+    "number": "06",
+    "challenge": "Organising graduate job applications while developing the application through a sustainability-focused CA.",
+    "approach": [
+      "Configured and ran the Django application locally.",
+      "Resolved development issues and passed Django system checks.",
+      "Next steps: cloud deployment, CI/CD, automated testing, security checks and resource-efficiency evaluation."
+    ],
+    "architecture": [
+      [
+        "Interface",
+        "HTML + CSS"
+      ],
+      [
+        "Application",
+        "Django / Python"
+      ],
+      [
+        "Current state",
+        "Local development \u00b7 further deployment planned"
+      ]
+    ],
+    "takeaway": "In progress: the local application is running. Deployment, CI/CD and efficiency evaluation are planned stages, not completed features."
+  }
+]
